@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: vm2 source tenant marker 1366554740
+    conditions:
+      - base = main
+    actions:
+      comment:
+        message: VM2-XTENANT-SOURCE-1366554740
